@@ -1,0 +1,103 @@
+body{
+  background-image: url("../img/wpp.jpg");
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+  top: 10%;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black
+}
+.tareas{
+  transition: all 0.5s ease-in-out;
+  width: 45%;
+  height: 6%;
+  background-color: gray;
+  border-color: #7D8FFF;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tareas:hover{
+border-radius: 20px;
+transform: scale(1.1);
+}
+.contenedor{
+  position: absolute;
+  align-content: center;
+  padding: 5px;
+  left: 35%;
+  top: 20%;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tareasenproceso{
+  transition: all 0.5s ease-in-out;
+  width: 45%;
+  height: 6%;
+  background-color: rgba(245, 255, 102, 0.3);
+  border-color: rgba(217, 227, 77, 0.3);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  text-align: center;
+  color: gray;
+  font-size: 150%;
+}
+.tareasenproceso:hover{
+border-radius: 20px;
+transform: scale(1.1);
+}
+.boton{
+  width: 100px;
+  border: solid;
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  transition-duration: 0.4s;
+  
+}
+.boton:hover{
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+.vacio{
+  transition: all 0.5s ease-in-out;
+  width: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  border-color: rgb(191, 191, 191);
+  background-color: rgba(135, 149, 255, 0.5);
+  color: rgba(0, 0, 0, 0);
+}
+.vacio:hover{
+  transform: scale(1.1);
+  border-radius: 9px;
+}
+.tabla{
+  border-bottom-style: solid;
+  border-bottom-width:2px;
+  border-image: linear-gradient(to right, rgba(0,0,0,0), #8F8F8F 50%, rgba(0,0,0,0)) 1;
+  text-align: center;
+  padding-top: 45px;
+}
+.flecha{
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  font-size: 25px;
+}
+.flecha:hover{
+  font-size: 28px;
+  transform: scale(1.1);
+}

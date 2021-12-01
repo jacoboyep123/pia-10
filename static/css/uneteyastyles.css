@@ -1,0 +1,30 @@
+import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(p.jpg.png) no-repeat;
+  background-size: cover;
+    height: 75vh;
+transition: all .5s;
+}
+a{color:#F8F8F8;text-decoration:none}
+#centrada{margin:auto;width:50%;font-family:Verdana;font-weight:600;text-transform:uppercase;text-align:center;display:flex;justify-content:center;flex-direction:column;align-items:center;height:50vh}
+.utopix{padding-bottom:90px}
+.cube{width:110%;height:50px;-webkit-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease;transition:all 250ms ease;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.active-state,.default-state{height:50px}
+.cube +.cube{margin:50px 0}
+.default-state{-webkit-transform:translateZ(70px);-moz-transform:translateZ(50px);-o-transform:translateZ(75px);-ms-transform:translateZ(75px);transform:translateZ(50px)}
+.flip-to-top .active-state{-webkit-transform:rotateX(90deg) translateZ(70px);-moz-transform:rotateX(90deg) translateZ(75px);-o-transform:rotateX(90deg) translateZ(50px);-ms-transform:rotateX(90deg) translateZ(70px);transform:rotateX(90deg) translateZ(75px)}
+.flip-to-bottom .active-state{-webkit-transform:rotateX(-90deg) translateZ(-50px);-moz-transform:rotateX(-90deg) translateZ(-50px);-o-transform:rotateX(-90deg) translateZ(-50px);-ms-transform:rotateX(-90deg) translateZ(-50px);transform:rotateX(-90deg) translateZ(-70px)}
+.cube.flip-to-top:hover{-webkit-transform:rotateX(-89deg);-moz-transform:rotateX(-89deg);-o-transform:rotateX(-89deg);-ms-transform:rotateX(-89deg);transform:rotateX(-89deg)}
+.cube.flip-to-bottom:hover{-webkit-transform:rotateX(89deg);-moz-transform:rotateX(89deg);-o-transform:rotateX(89deg);-ms-transform:rotateX(89deg);transform:rotateX(89deg)}
+.cube{text-align:center;margin:50 auto}
+.active-state,.default-state{font-size:26px;text-transform:uppercase;color:#fff;line-height:50px;-webkit-transition:background 250ms ease;-moz-transition:background 250ms ease;-o-transition:background 250ms ease;transition:background 250ms ease}
+.cube:hover .default-state{background:#000}
+.facebook{background:#65D7FB}
+.youtube{background:#0BD87E}

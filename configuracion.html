@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=es>
+    
+ <head>
+   <meta charset="utf-8">
+     <title>config</title>
+     <link ref="stylesheet" href="static/css/style.css">
+     <style>
+         img{
+               height: 50%;
+               width: 50%;
+            
+         }
+         body{
+             background: url(static/img/candado.png);
+             background-size: cover;
+             background-repeat: no-repeat;
+          width: 100%;
+            
+         }
+     </style>
+</head>
+     <body>
+      
+ <p aling="center">
+    
+<center> <font size="20" face="Arial Black" color="#60DA53">TADEC</font> </center>
+      
+<br>
+<div class="editar"> 
+<footer>
+  <center> 
+      <font size="20" face="gotham" color="#182317">SI QUIERES CAMBIAR TU CONTRASEÑA PUEDES HACERLO AQUI</font> </center>
+</footer>
+</div>
+
+  <center>
+
+      <br>
+    
+      <br>
+      <br>
+      <br>
+      
+      <form method="POST" action="php/cambiar.php">
+       <label for="username"></label> 
+        <input type="password"  name="contra_1" placeholder="ingrese su contraseña actual">
+       <br><br>
+       <label for="password"></label> 
+       <input type="password" name="contra_2"placeholder="ingrese su nueva contraseña">
+       <br><br>
+       <input type="submit" value="Cambiar">
+       </center>
+        <center> <font size="10" face="gotham" color="#182317"><button><a href="perfil.html">volver a inicio</a></button>
+        </font> </center>
+      </form>
+    
+      
+</body>
+</html>

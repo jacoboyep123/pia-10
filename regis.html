@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link rel="stylesheet" href="static/css/estilodelregistrogothem.css">
+</head> 
+<body>
+<form method="POST" action="php/regist_insert.php" class="formulario">
+    
+    <h1>REGISTRATE EN TADEC</h1>
+     <div class="contenedor">
+         
+    <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="NOMBRES" name="nombres" require>
+         
+         </div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="APELLIDOS" name="apellidos"> 
+         </div>
+
+          <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" placeholder="INGRESA TU CORREO" name="correo">
+         </div>
+
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" placeholder="INGRESA CONTRASEÑA" name="pass">      
+         </div>  
+
+
+         <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <select name="tipouser">
+             <option value="paciente">paciente</option>
+             <option value="psicologo">psicologo</option>
+         </select>
+         </div> 
+
+    </div>
+             
+         </div>
+         <input type="submit" value="Registrate" class="button">
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad, ingresa a nuestra comunidad junto con otros usuarios, recuerda tu eres lo mas importante nuestra razon de ser</p>
+         <p>¿Ya tienes una cuenta?<a class="link" href="inicioss.html">Iniciar Sesion</a></p>
+     </div>
+</form>
+</body>
+</html>
